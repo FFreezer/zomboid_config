@@ -1,0 +1,2 @@
+MyCarpenter:carpenter;SlowHealer;Conspicuous;Clumsy;SlowReader;LightEater;FastLearner;Fit;
+Mechanic:mechanics;Underweight;Conspicuous;WeakStomach;Clumsy;SlowReader;SpeedDemon;Dextrous;SpeedReading;Fit;Stout;

@@ -1,0 +1,4 @@
+[28-01-23 22:07:31.846][info] Init chat system....
+[28-01-23 22:07:31.846][info] Mode: multiplayer.
+[28-01-23 22:07:31.846][info] Chat owner: admin.
+[28-01-23 22:07:37.572][info] Got message from server: ChatMessage{chat=Server, author='Server', text='World saved'}.

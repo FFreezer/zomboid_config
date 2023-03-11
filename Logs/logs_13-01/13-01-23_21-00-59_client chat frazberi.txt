@@ -1,0 +1,13 @@
+[13-01-23 21:00:59.945][info] Init chat system....
+[13-01-23 21:00:59.945][info] Mode: multiplayer.
+[13-01-23 21:00:59.945][info] Chat owner: frazberi.
+[13-01-23 21:16:06.414][info] Got message from server: ChatMessage{chat=Local, author='Shad', text='HEY!'}.
+[13-01-23 21:21:33.648][info] Got message from server: ChatMessage{chat=Local, author='Shad', text='HEY!'}.
+[13-01-23 21:21:35.130][info] Got message from server: ChatMessage{chat=Local, author='Shad', text='HEY!'}.
+[13-01-23 21:21:37.365][info] Got message from server: ChatMessage{chat=Local, author='Shad', text='HEY YOU!'}.
+[13-01-23 21:21:40.547][info] Got message from server: ChatMessage{chat=Local, author='Shad', text='HEY YOU!'}.
+[13-01-23 21:21:43.597][info] Got message from server: ChatMessage{chat=Local, author='Shad', text='HEY YOU!'}.
+[13-01-23 21:21:53.398][info] Got message from server: ChatMessage{chat=Local, author='Shad', text='HEY!'}.
+[13-01-23 21:21:57.265][info] Got message from server: ChatMessage{chat=Local, author='Shad', text='OVER HERE!'}.
+[13-01-23 21:22:00.747][info] Got message from server: ChatMessage{chat=Local, author='Shad', text='HEY!'}.
+[13-01-23 21:22:04.264][info] Got message from server: ChatMessage{chat=Local, author='Shad', text='OVER HERE!'}.

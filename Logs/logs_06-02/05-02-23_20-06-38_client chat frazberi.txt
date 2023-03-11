@@ -1,0 +1,8 @@
+[05-02-23 20:06:38.720][info] Init chat system....
+[05-02-23 20:06:38.720][info] Mode: multiplayer.
+[05-02-23 20:06:38.720][info] Chat owner: frazberi.
+[05-02-23 20:07:07.753][info] Got message from server: ChatMessage{chat=Server, author='Server', text='Unknown command whisper'}.
+[05-02-23 20:07:14.746][info] Send message 'lol' for player 'Shad' in whisper chat.
+[05-02-23 20:07:14.746][info] Whisper chat is not created for 'Shad'.
+[05-02-23 20:07:14.757][info] 'Start PM chat' package sent. Waiting for a creating whisper chat by server....
+[05-02-23 20:07:14.836][info] Whisper chat created between 'frazberi' and 'Shad' and has id = 8.

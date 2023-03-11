@@ -1,0 +1,3 @@
+[29-01-23 22:08:43.408][info] Init chat system....
+[29-01-23 22:08:43.408][info] Mode: single player.
+[29-01-23 22:08:43.408][info] Chat owner: frazberi.
