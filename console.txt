@@ -1114,3 +1114,226 @@ LOG  : Lua         , 1678646804824> Loading: media/lua/shared/Sandbox/Apocalypse
 LOG  : Lua         , 1678646804846> Loading: media/lua/shared/Sandbox/Apocalypse.lua
 LOG  : General     , 1678646804889> EXITDEBUG: MainScreenState.enter 2
 LOG  : General     , 1678646808576> EXITDEBUG: onMenuItemMouseDownMainMenu 1 (item=COOP)
+LOG  : General     , 1678646813748> SERVER: info@coop mode enabled
+LOG  : General     , 1678646813748> SERVER: status@UI_ServerStatus_Initialising
+LOG  : General     , 1678647543075> SERVER: status@UI_ServerStatus_CreateBackup
+LOG  : General     , 1678647543152> SERVER: status@UI_ServerStatus_CreateBackup
+LOG  : General     , 1678647547340> SERVER: status@UI_ServerStatus_Initialising
+LOG  : General     , 1678647563370> SERVER: status@UI_ServerStatus_LoadingWorld
+LOG  : General     , 1678647574333> SERVER: server-address@0.0.0.0:16261
+LOG  : General     , 1678647574333> Got server-address: 0.0.0.0:16261
+LOG  : General     , 1678647574333> Successfully parsed: address = 0.0.0.0, port = 16261
+LOG  : General     , 1678647574333> SERVER: steam-id@90170324380452864
+LOG  : General     , 1678647574705> SERVER: status@UI_ServerStatus_Started
+LOG  : Network     , 1678647574707> 0> Initialising RakNet...
+LOG  : Network     , 1678647574707> 0> [12-03-23 18:59:34.707] > ZNet: [-> CZombienet: RakNetPeerInterface_Init
+LOG  : Network     , 1678647574707> 0> [12-03-23 18:59:34.707] > ZNet: [-> CZombienet: RakNetPeerInterface_SetMaximumIncomingConnections
+LOG  : Network     , 1678647574707> 0> [12-03-23 18:59:34.707] > ZNet: [-> CZombienet: RakNetPeerInterface_SetClientPort
+LOG  : Network     , 1678647574707> 0> [12-03-23 18:59:34.707] > ZNet: [-> CZombienet: RakNetPeerInterface_SetOccasionalPing
+LOG  : Network     , 1678647574707> 0> [12-03-23 18:59:34.707] > ZNet: [-> CZombienet: RakNetPeerInterface_Startup
+LOG  : Network     , 1678647574707> 0> [12-03-23 18:59:34.707] > ZNet: Startup version 41.78.16
+LOG  : Network     , 1678647574707> 0> [12-03-23 18:59:34.707] > ZNet: CZombienet -> CZombienet: ConnectQueueClear
+LOG  : Network     , 1678647574735> 0> [12-03-23 18:59:34.735] > ZNet: CZombienet -> CZombienet: OnRakPeerStartup
+LOG  : Network     , 1678647574735> 0> [12-03-23 18:59:34.735] > ZNet: OnRakPeerStartup
+LOG  : Network     , 1678647574751> 0> [12-03-23 18:59:34.751] > ZNet: CZombienet -> CSteamSDK: SetSocketLayerOverride
+LOG  : Network     , 1678647574751> 0> RakNet.Startup() return code: 0 (0 means success)
+LOG  : Network     , 1678647574752> 0> [12-03-23 18:59:34.752] > ZNet: [-> CZombienet: RakNetPeerInterface_Connect
+LOG  : Network     , 1678647574752> 0> [12-03-23 18:59:34.752] > ZNet: Connecting to 127.0.0.1:16261
+LOG  : Network     , 1678647574752> 0> [12-03-23 18:59:34.752] > ZNet: CZombienet -> CZombienet: ConnectByAddress
+LOG  : Network     , 1678647574752> 0> [12-03-23 18:59:34.752] > ZNet: Connecting to: 127.0.0.1:16261
+LOG  : Network     , 1678647574752> 0> [12-03-23 18:59:34.752] > ZNet: CZombienet -> CZombienet : UpdateConnectionState
+LOG  : Network     , 1678647574752> 0> [12-03-23 18:59:34.752] > ZNet: CZombienet -> CSteamSDK: PingServer
+LOG  : Network     , 1678647574758> 0> [12-03-23 18:59:34.758] > ZNet: CSteamSDK -> CZombienet: ServerResponded
+LOG  : Network     , 1678647574758> 0> [12-03-23 18:59:34.758] > ZNet: Got information for specified server, connecting
+LOG  : Network     , 1678647574758> 0> [12-03-23 18:59:34.758] > ZNet: CZombienet -> CZombienet: ConnectBySteamID
+LOG  : Network     , 1678647574758> 0> [12-03-23 18:59:34.758] > ZNet: Connecting to 90170324380452864
+LOG  : Network     , 1678647574758> 0> [12-03-23 18:59:34.758] > ZNet: CZombienet -> CZombienet: Disconnect
+LOG  : Network     , 1678647574758> 0> [12-03-23 18:59:34.758] > ZNet: CZombienet -> CZombienet: InitiateConnection
+LOG  : Network     , 1678647574758> 0> [12-03-23 18:59:34.758] > ZNet: CZombienet -> CZombienet : UpdateConnectionState
+LOG  : Network     , 1678647574759> 0> [12-03-23 18:59:34.759] > ZNet: hnote over CZombienet : **m_version**
+LOG  : Network     , 1678647574759> 0> [12-03-23 18:59:34.759] > ZNet: Client version=41.78.16 has begun P2P connection
+LOG  : Network     , 1678647574759> 0> [12-03-23 18:59:34.759] > ZNet: CZombienet -> CSteamSDK: SendP2PPacket
+LOG  : Network     , 1678647584168> 0> [12-03-23 18:59:44.168] > ZNet: CSteamSDK -> CZombienet : ReadP2PPacket
+LOG  : Network     , 1678647584168> 0> [12-03-23 18:59:44.168] > ZNet: CZombienet -> CZombienet: OnMsgServerInfo
+LOG  : Network     , 1678647584168> 0> [12-03-23 18:59:44.168] > ZNet: Got Server Info Message: Zomboid Server
+LOG  : Network     , 1678647584168> 0> [12-03-23 18:59:44.168] > ZNet: Server public IP: 82.47.40.167
+LOG  : Network     , 1678647584168> 0> [12-03-23 18:59:44.168] > ZNet: Server port 16261 and udp-port 16262
+LOG  : Network     , 1678647584168> 0> [12-03-23 18:59:44.168] > ZNet: CZombienet -> CZombienet: ConnectQueueClear
+LOG  : Network     , 1678647584168> 0> [12-03-23 18:59:44.168] > ZNet: CZombienet -> CZombienet: ConnectQueueAddUDPConnect
+LOG  : Network     , 1678647584168> 0> [12-03-23 18:59:44.168] > ZNet: CZombienet -> CZombienet: ConnectQueueAddUDPConnect
+LOG  : Network     , 1678647584168> 0> [12-03-23 18:59:44.168] > ZNet: CZombienet -> CZombienet: ConnectQueueAddSteamConnect
+LOG  : Network     , 1678647584168> 0> [12-03-23 18:59:44.168] > ZNet: CZombienet -> CZombienet: DoNextConnect
+LOG  : Network     , 1678647584171> 0> [12-03-23 18:59:44.171] > ZNet: UDP Connection attempt 127.0.0.1:16262
+LOG  : Network     , 1678647584171> 0> [12-03-23 18:59:44.171] > ZNet: CZombienet -> CZombienet : UpdateConnectionState
+LOG  : Network     , 1678647584171> 0> [12-03-23 18:59:44.171] > ZNet: CZombienet -> CRakNet : Connect
+LOG  : Network     , 1678647584196> 0> [12-03-23 18:59:44.196] > ZNet: CRakNet -> CZombienet: OnNewConnection
+LOG  : Network     , 1678647584196> 0> [12-03-23 18:59:44.196] > ZNet: OnNewConnection: 127.0.0.1:16262 incoming=0 state=Connected
+LOG  : Network     , 1678647584196> 0> [12-03-23 18:59:44.196] > ZNet: CZombienet -> CZombienet : UpdateConnectionState
+LOG  : Network     , 1678647584196> 0> [12-03-23 18:59:44.196] > ZNet: CZombienet -> CZombienet: BeginAuth
+LOG  : Network     , 1678647584196> 0> [12-03-23 18:59:44.196] > ZNet: CZombienet -> CZombienet : UpdateConnectionState
+LOG  : Network     , 1678647584196> 0> [12-03-23 18:59:44.196] > ZNet: CZombienet -> CSteamSDK: GetAuthSessionTicket
+LOG  : Network     , 1678647584196> 0> [12-03-23 18:59:44.196] > ZNet: hnote over CZombienet : **auth_message**
+LOG  : General     , 1678647584208> 0> 1678647584208 fmod: Java_fmod_javafmodJNI_FMOD_1Sound_1GetData:4549 JNI_FMOD_Sound_GetData correct buffer
+LOG  : Network     , 1678647584211> 0> [12-03-23 18:59:44.211] > ConnectionManager: [RakNet] "connection-request-accepted" connection: guid=283728613587794434 ip=90170324380452864 steam-id=0 access="" username="frazberi" connection-type="Disconnected"
+LOG  : Network     , 1678647584479> 0> [12-03-23 18:59:44.479] > ZNet: CSteamSDK -> CZombienet: OnGetAuthSessionTicketResponse
+LOG  : Network     , 1678647584479> 0> [12-03-23 18:59:44.479] > ZNet: OnGetAuthSessionTicketResponse: result=1
+LOG  : Network     , 1678647584479> 0> [12-03-23 18:59:44.479] > ZNet: CZombienet -> CRakNet : Send
+LOG  : Network     , 1678647584818> 0> [12-03-23 18:59:44.818] > ZNet: CRakNet -> CZombienet: OnReceive
+LOG  : Network     , 1678647584818> 0> [12-03-23 18:59:44.818] > ZNet: CZombienet -> CZombienet: ProcessPacket
+LOG  : Network     , 1678647584818> 0> [12-03-23 18:59:44.818] > ZNet: CZombienet -> CZombienet: OnMsgServerAuthPassed
+LOG  : Network     , 1678647584818> 0> [12-03-23 18:59:44.818] > ZNet: Successfully authenticated
+LOG  : Network     , 1678647584818> 0> [12-03-23 18:59:44.818] > ZNet: CZombienet -> CZombienet : UpdateConnectionState
+DEBUG: Voice       , 1678647584818> 0> VoiceManager.VoiceConnectReq        > uuid=3f001abb983ba02
+DEBUG: Voice       , 1678647584839> 0> VoiceManager.VoiceOpenChannelReply  > uuid=283728613587794434
+DEBUG: Voice       , 1678647584839> 0> VoiceManager.VoiceOpenChannelReply  > enabled=true, sample-rate=24000, period=20, complexity=1, buffering=8000, is3D=true
+LOG  : General     , 1678647584840> 0> 1678647584840 fmod: globalSystem = 0x19FCA018
+LOG  : General     , 1678647584840> 0> 1678647584840 fmod: FMOD_System_GetRecordDriverInfo: nativeRate = 48000, nativeChannels = 2
+LOG  : General     , 1678647584840> 0> 1678647584840 fmod: System create record sound: OK
+LOG  : General     , 1678647584840> 0> 1678647584840 fmod: Create resampler: OK
+LOG  : General     , 1678647584840> 0> 1678647584840 fmod: Create acoustic echo canceller: OK
+LOG  : Network     , 1678647584841> 0> [12-03-23 18:59:44.841] > ConnectionManager: [send-packet] "login" connection: guid=283728613587794434 ip=90170324380452864 steam-id=76561198059078403 access="" username="frazberi" connection-type="UDPRakNet"
+LOG  : General     , 1678647584844> 0> 1678647584844 fmod: GetRecordNumDrivers id = 0, sound = 0x4dc18878 loop=1
+LOG  : Network     , 1678647584924> 0> [12-03-23 18:59:44.924] > ConnectionManager: [receive-packet] "connection-details" connection: guid=283728613587794434 ip=90170324380452864 steam-id=76561198059078403 access="" username="frazberi" connection-type="UDPRakNet"
+LOG  : Network     , 1678647584928> 0> [12-03-23 18:59:44.928] > ConnectionManager: [connect-state] "start" connection: guid=283728613587794434 ip=90170324380452864 steam-id=76561198059078403 access="" username="frazberi" connection-type="UDPRakNet"
+LOG  : General     , 1678647584929> 0> LOGGED INTO : 107 millisecond
+LOG  : General     , 1678647584938> 0> ConnectToServerState: Start
+LOG  : Network     , 1678647584938> 0> [12-03-23 18:59:44.938] > ConnectionManager: [connect-state-start] "testtcp" connection: guid=283728613587794434 ip=90170324380452864 steam-id=76561198059078403 access="" username="frazberi" connection-type="UDPRakNet"
+LOG  : General     , 1678647584939> 0> ConnectToServerState: TestTCP
+LOG  : Network     , 1678647584939> 0> [12-03-23 18:59:44.939] > ConnectionManager: [connect-state-testtcp] "workshopinit" connection: guid=283728613587794434 ip=90170324380452864 steam-id=76561198059078403 access="" username="frazberi" connection-type="UDPRakNet"
+LOG  : Network     , 1678647584948> 0> [12-03-23 18:59:44.948] > ConnectionManager: [connect-state-workshopinit] "workshopquery" connection: guid=283728613587794434 ip=90170324380452864 steam-id=76561198059078403 access="" username="frazberi" connection-type="UDPRakNet"
+LOG  : General     , 1678647585504> 0> ConnectToServerState: onItemQueryCompleted handle=2 numResult=95
+LOG  : Network     , 1678647585507> 0> [12-03-23 18:59:45.507] > ConnectionManager: [connect-state-workshopquery] "workshopconfirm" connection: guid=283728613587794434 ip=90170324380452864 steam-id=76561198059078403 access="" username="frazberi" connection-type="UDPRakNet"
+LOG  : General     , 1678647585508> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=1539281445
+LOG  : General     , 1678647585508> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2820757649
+LOG  : General     , 1678647585509> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2753894806
+LOG  : General     , 1678647585509> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2883755057
+LOG  : General     , 1678647585509> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2377867605
+LOG  : General     , 1678647585509> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2728257015
+LOG  : General     , 1678647585509> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2071347174
+LOG  : General     , 1678647585509> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2335368829
+LOG  : General     , 1678647585509> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2282429356
+LOG  : General     , 1678647585509> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2313387159
+LOG  : General     , 1678647585509> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2368058459
+LOG  : General     , 1678647585509> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2423906082
+LOG  : General     , 1678647585509> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2160432461
+LOG  : General     , 1678647585510> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2711057211
+LOG  : General     , 1678647585510> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2921412702
+LOG  : General     , 1678647585510> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2923979345
+LOG  : General     , 1678647585510> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2728416041
+LOG  : General     , 1678647585510> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=1901390863
+LOG  : General     , 1678647585510> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2770498315
+LOG  : General     , 1678647585510> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2795814840
+LOG  : General     , 1678647585510> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2337452747
+LOG  : General     , 1678647585510> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2804531012
+LOG  : General     , 1678647585510> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2599752664
+LOG  : General     , 1678647585510> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2529746725
+LOG  : General     , 1678647585510> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2602450182
+LOG  : General     , 1678647585510> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2617575303
+LOG  : General     , 1678647585510> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2841030649
+LOG  : General     , 1678647585510> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2712480036
+LOG  : General     , 1678647585511> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2736032294
+LOG  : General     , 1678647585511> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2701170568
+LOG  : General     , 1678647585511> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2717575749
+LOG  : General     , 1678647585511> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2584112711
+LOG  : General     , 1678647585511> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2812828771
+LOG  : General     , 1678647585511> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=1510950729
+LOG  : General     , 1678647585511> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2921412953
+LOG  : General     , 1678647585511> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2447729538
+LOG  : General     , 1678647585511> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=1414568604
+LOG  : General     , 1678647585511> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2616986064
+LOG  : General     , 1678647585511> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2688538916
+LOG  : General     , 1678647585511> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2734679675
+LOG  : General     , 1678647585511> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2471844569
+LOG  : General     , 1678647585511> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2016648690
+LOG  : General     , 1678647585512> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2096940441
+LOG  : General     , 1678647585512> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2650547917
+LOG  : General     , 1678647585512> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2734705913
+LOG  : General     , 1678647585512> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2926107796
+LOG  : General     , 1678647585512> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2169435993
+LOG  : General     , 1678647585512> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=515555911
+LOG  : General     , 1678647585512> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2685168362
+LOG  : General     , 1678647585512> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2812491628
+LOG  : General     , 1678647585513> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2792245343
+LOG  : General     , 1678647585513> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=1897635812
+LOG  : General     , 1678647585513> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2904475897
+LOG  : General     , 1678647585513> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2732294885
+LOG  : General     , 1678647585513> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2837923608
+LOG  : General     , 1678647585513> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=1911132112
+LOG  : General     , 1678647585514> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2216760107
+LOG  : General     , 1678647585514> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2921413188
+LOG  : General     , 1678647585514> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2815966702
+LOG  : General     , 1678647585514> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2735579575
+LOG  : General     , 1678647585514> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2196102849
+LOG  : General     , 1678647585514> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2726058465
+LOG  : General     , 1678647585514> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2732594572
+LOG  : General     , 1678647585514> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2832136889
+LOG  : General     , 1678647585514> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2744101803
+LOG  : General     , 1678647585514> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2852704777
+LOG  : General     , 1678647585515> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2704811006
+LOG  : General     , 1678647585515> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=1915420850
+LOG  : General     , 1678647585515> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=1406668075
+LOG  : General     , 1678647585515> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2921414500
+LOG  : General     , 1678647585515> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2463184726
+LOG  : General     , 1678647585515> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2688809268
+LOG  : General     , 1678647585515> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2922138439
+LOG  : General     , 1678647585515> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2924346037
+LOG  : General     , 1678647585515> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2786473675
+LOG  : General     , 1678647585516> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2725378876
+LOG  : General     , 1678647585516> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2719592131
+LOG  : General     , 1678647585516> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2880299874
+LOG  : General     , 1678647585516> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2487022075
+LOG  : General     , 1678647585516> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2648779556
+LOG  : General     , 1678647585516> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2707957711
+LOG  : General     , 1678647585516> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2613146550
+LOG  : General     , 1678647585516> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2392709985
+LOG  : General     , 1678647585516> 0> ConnectToServerState: Installed status but timeUpdated doesn't match!!!
+LOG  : General     , 1678647585516> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2694358451
+LOG  : General     , 1678647585516> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2289429759
+LOG  : General     , 1678647585517> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2833065348
+LOG  : General     , 1678647585517> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=1430463738
+LOG  : General     , 1678647585517> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2687798127
+LOG  : General     , 1678647585517> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2619072426
+LOG  : General     , 1678647585517> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2932853467
+LOG  : General     , 1678647585517> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2827080218
+LOG  : General     , 1678647585517> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2924460825
+LOG  : General     , 1678647585517> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2478768005
+LOG  : General     , 1678647585517> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2384329562
+LOG  : General     , 1678647585517> 0> ConnectToServerState: WorkshopConfirm GetItemState()=Subscribed|Installed ID=2774428681
+LOG  : General     , 1678647585517> 0> -------------------------------------------------------------
+attempted index: setVisible of non-table: null
+
+LOG  : General     , 1678647585519> 0> -----------------------------------------
+STACK TRACE
+-----------------------------------------
+function: setRequiredItems -- file: ServerWorkshopItemScreen.lua line # 168 | Vanilla
+function: OnServerWorkshopItems -- file: ServerWorkshopItemScreen.lua line # 226 | Vanilla
+
+ERROR: General     , 1678647585523> 0> ExceptionLogger.logException> Exception thrown java.lang.RuntimeException: attempted index: setVisible of non-table: null at KahluaThread.tableget line:1689.
+ERROR: General     , 1678647585523> 0> DebugLogStream.printException> Stack trace:
+java.lang.RuntimeException: attempted index: setVisible of non-table: null
+	at se.krka.kahlua.vm.KahluaThread.tableget(KahluaThread.java:1689)
+	at se.krka.kahlua.vm.KahluaThread.luaMainloop(KahluaThread.java:641)
+	at se.krka.kahlua.vm.KahluaThread.call(KahluaThread.java:163)
+	at se.krka.kahlua.vm.KahluaThread.pcall(KahluaThread.java:1980)
+	at se.krka.kahlua.vm.KahluaThread.pcallvoid(KahluaThread.java:1812)
+	at se.krka.kahlua.integration.LuaCaller.pcallvoid(LuaCaller.java:66)
+	at se.krka.kahlua.integration.LuaCaller.protectedCallVoid(LuaCaller.java:139)
+	at zombie.Lua.Event.trigger(Event.java:64)
+	at zombie.Lua.LuaEventManager.triggerEvent(LuaEventManager.java:134)
+	at zombie.gameStates.ConnectToServerState.WorkshopConfirm(ConnectToServerState.java:575)
+	at zombie.gameStates.ConnectToServerState.update(ConnectToServerState.java:88)
+	at zombie.gameStates.MainScreenState.update(MainScreenState.java:523)
+	at zombie.gameStates.GameStateMachine.update(GameStateMachine.java:101)
+	at zombie.GameWindow.logic(GameWindow.java:298)
+	at zombie.core.profiling.AbstractPerformanceProfileProbe.invokeAndMeasure(AbstractPerformanceProfileProbe.java:71)
+	at zombie.GameWindow.frameStep(GameWindow.java:765)
+	at zombie.GameWindow.run_ez(GameWindow.java:667)
+	at zombie.GameWindow.mainThread(GameWindow.java:495)
+	at java.base/java.lang.Thread.run(Unknown Source)
+LOG  : General     , 1678647585524> 0> -----------------------------------------
+STACK TRACE
+-----------------------------------------
+function: setRequiredItems -- file: ServerWorkshopItemScreen.lua line # 168 | Vanilla
+function: OnServerWorkshopItems -- file: ServerWorkshopItemScreen.lua line # 226 | Vanilla
+
+LOG  : Network     , 1678647585524> 0> [12-03-23 18:59:45.524] > ConnectionManager: [connect-state-workshopconfirm] "serverworkshopitemscreen" connection: guid=283728613587794434 ip=90170324380452864 steam-id=76561198059078403 access="" username="frazberi" connection-type="UDPRakNet"
