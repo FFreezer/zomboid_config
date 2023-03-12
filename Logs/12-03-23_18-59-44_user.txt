@@ -1,3 +1,0 @@
-[12-03-23 18:59:44.216] added connection index=0 127.0.0.1.
-[12-03-23 18:59:44.846] 76561198059078403 "frazberi" attempting to join.
-[12-03-23 18:59:44.847] 76561198059078403 "frazberi" allowed to join.
