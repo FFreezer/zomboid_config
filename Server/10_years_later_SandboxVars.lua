@@ -61,7 +61,7 @@ SandboxVars = {
     -- 6 = 9 PM
     -- 7 = 12 AM
     -- 8 = 2 AM
-    StartTime = 2,
+    StartTime = 1,
     -- Default=0-30 Days
     -- 1 = Instant
     -- 2 = 0-30 Days
@@ -70,7 +70,7 @@ SandboxVars = {
     -- 5 = 0-1 Year
     -- 6 = 0-5 Years
     -- 7 = 2-6 Months
-    WaterShut = 2,
+    WaterShut = 1,
     -- Default=0-30 Days
     -- 1 = Instant
     -- 2 = 0-30 Days
@@ -79,7 +79,7 @@ SandboxVars = {
     -- 5 = 0-1 Year
     -- 6 = 0-5 Years
     -- 7 = 2-6 Months
-    ElecShut = 2,
+    ElecShut = 1,
     -- Minimum=-1 Maximum=2147483647 Default=14
     WaterShutModifier = 14,
     -- Minimum=-1 Maximum=2147483647 Default=14
@@ -139,7 +139,7 @@ SandboxVars = {
     -- 4 = Rare
     -- 5 = Normal
     -- 6 = Common
-    RangedWeaponLoot = 4,
+    RangedWeaponLoot = 3,
     -- Default=Rare
     -- 1 = None (not recommended)
     -- 2 = Insanely Rare
@@ -225,14 +225,14 @@ SandboxVars = {
     -- 3 = Rare
     -- 4 = Sometimes
     -- 5 = Often
-    Alarm = 4,
+    Alarm = 2,
     -- How frequently homes and buildings will be discovered locked Default=Very Often
     -- 1 = Never
     -- 2 = Extremely Rare
     -- 3 = Rare
     -- 4 = Sometimes
     -- 5 = Often
-    LockedHouses = 6,
+    LockedHouses = 2,
     -- Spawn with chips, water bottle, school bag, baseball bat and a hammer.
     StarterKit = false,
     -- Nutritional value of food affects the player's condition.
@@ -248,7 +248,7 @@ SandboxVars = {
     -- 2 = Low
     -- 3 = Normal
     -- 4 = High
-    FridgeFactor = 3,
+    FridgeFactor = 4,
     -- Items will respawn in already-looted containers in towns and trailer parks. Items will not respawn in player-made containers. Default=None
     -- 1 = None
     -- 2 = Every Day
@@ -276,7 +276,7 @@ SandboxVars = {
     -- 10 = 9
     -- 11 = 10
     -- 12 = 11
-    TimeSinceApo = 1,
+    TimeSinceApo = 12,
     -- Will influence how much water the plant will lose per day and their ability to avoid disease. Default=Normal
     -- 1 = Very High
     -- 2 = High
@@ -299,7 +299,7 @@ SandboxVars = {
     -- 1 = Never
     -- 2 = Once
     -- 3 = Sometimes
-    Helicopter = 2,
+    Helicopter = 1,
     -- How often zombie attracting metagame events like distant gunshots will occur. Default=Sometimes
     -- 1 = Never
     -- 2 = Sometimes
@@ -313,7 +313,7 @@ SandboxVars = {
     -- 2 = Rare
     -- 3 = Sometimes
     -- 4 = Often
-    GeneratorSpawning = 3,
+    GeneratorSpawning = 2,
     -- How much fuel is consumed per in-game hour. Minimum=0.00 Maximum=100.00 Default=1.00
     GeneratorFuelConsumption = 1.0,
     -- Increase/decrease probability of discovering randomized safe houses on the map: either burnt out, containing loot stashes, dead survivor bodies etc. Default=Rare
@@ -322,7 +322,7 @@ SandboxVars = {
     -- 3 = Rare
     -- 4 = Sometimes
     -- 5 = Often
-    SurvivorHouseChance = 3,
+    SurvivorHouseChance = 4,
     -- Default=Rare
     -- 1 = Never
     -- 2 = Extremely Rare
@@ -345,7 +345,7 @@ SandboxVars = {
     -- 5 = Often
     AnnotatedMapChance = 4,
     -- Adds free points during character creation. Minimum=-100 Maximum=100 Default=0
-    CharacterFreePoints = 0,
+    CharacterFreePoints = 4,
     -- Gives player-built constructions extra hit points so they are more resistant to zombie damage. Default=Normal
     -- 1 = Very Low
     -- 2 = Low
@@ -356,7 +356,7 @@ SandboxVars = {
     -- 1 = Pitch Black
     -- 2 = Dark
     -- 3 = Normal
-    NightDarkness = 3,
+    NightDarkness = 2,
     -- Governs the time from dusk to dawn. Default=Normal
     -- 1 = Always Night
     -- 2 = Long
@@ -403,7 +403,7 @@ SandboxVars = {
     -- If disabled snow will not accumulate on ground but will still be visible on vegetation and rooftops.
     EnableSnowOnGround = true,
     -- When enabled certain melee weapons will be able to strike multiple zombies in one hit.
-    MultiHitZombies = false,
+    MultiHitZombies = true,
     -- Chance of being bitten when a zombie attacks from behind. Default=High
     -- 1 = Low
     -- 2 = Medium
@@ -418,11 +418,11 @@ SandboxVars = {
     -- 2 = Very Low
     -- 3 = Low
     -- 4 = Normal
-    CarSpawnRate = 3,
+    CarSpawnRate = 2,
     -- Governs the chances of finding vehicles with gas in the tank. Default=Low
     -- 1 = Low
     -- 2 = Normal
-    ChanceHasGas = 1,
+    ChanceHasGas = 2,
     -- Governs how full gas tanks will be in discovered cars. Default=Low
     -- 1 = Very Low
     -- 2 = Low
@@ -439,7 +439,7 @@ SandboxVars = {
     -- 6 = High
     -- 7 = Very High
     -- 8 = Full
-    FuelStationGas = 5,
+    FuelStationGas = 6,
     -- How gas-hungry vehicles on the map are. Minimum=0.00 Maximum=100.00 Default=1.00
     CarGasConsumption = 1.0,
     -- Default=Rare
@@ -448,7 +448,7 @@ SandboxVars = {
     -- 3 = Rare
     -- 4 = Sometimes
     -- 5 = Often
-    LockedCar = 3,
+    LockedCar = 2,
     -- General condition of vehicles discovered on the map Default=Low
     -- 1 = Very Low
     -- 2 = Low
@@ -466,7 +466,7 @@ SandboxVars = {
     -- 2 = Low
     -- 3 = Normal
     -- 4 = High
-    DamageToPlayerFromHitByACar = 1,
+    DamageToPlayerFromHitByACar = 3,
     -- Enable or disable traffic jams that spawn on the main roads of the map.
     TrafficJam = true,
     -- How frequently cars will be discovered with an alarm. Default=Extremely Rare
@@ -497,8 +497,90 @@ SandboxVars = {
     MaggotSpawn = 1,
     -- The higher the value, the longer lightbulbs last before breaking. If 0, lightbulbs will never break. Does not affect vehicle headlights. Minimum=0.00 Maximum=1000.00 Default=1.00
     LightBulbLifespan = 1.0,
+    -- Minimum=0 Maximum=100 Default=6
+    ChanceOfAttachedWeapon = 6,
+    -- Minimum=0 Maximum=100 Default=1
+    ChanceOfLongBlade = 1,
+    -- Minimum=0 Maximum=100 Default=5
+    ChanceOfHuntingKnife = 5,
+    -- Minimum=0 Maximum=100 Default=5
+    ChanceOfSpears = 5,
+    -- Minimum=0 Maximum=100 Default=2
+    ChanceOfAxe = 2,
+    -- Minimum=0 Maximum=100 Default=3
+    ChanceOfBlunts = 3,
+    -- Minimum=0 Maximum=100 Default=50
+    ChanceOfGunsOnOutfits = 50,
+    DaySurvivedModifier = 4,
+    -- Minimum=0.00 Maximum=10.00 Default=1.00
+    ZombieLootMultiplier = 1.0,
+    ItemsAddedToZombieLoot = "Base.Money:0.05;Base.SheetPaper2:0.05",
+    ItemsAddedToMilitaryZedsLoot = "",
+    ItemsAddedToPoliceZedsLoot = "",
+    ItemsAddedToFiremenZedsLoot = "",
+    ItemsAddedToRichZedsLoot = "",
+    ItemsAddedToRuralZedsLoot = "",
+    ItemsAddedToRogueZedsLoot = "",
+    ItemsAddedToSchoolZedsLoot = "",
+    ItemsAddedToSportsZedsLoot = "",
+    ItemsAddedToMedicalZedsLoot = "",
+    ItemsAddedToIndustryZedsLoot = "",
+    ItemsAddedToGasStationZedsLoot = "",
+    ItemsAddedToRestaurantZedsLoot = "",
+    ItemsAddedToOfficeWorkersZedsLoot = "",
+    CustomOutfitList = "",
+    ItemsAddedToCustomOutfitListLoot = "",
+    -- Minimum=1 Maximum=100 Default=20
+    CigarettesCount = 20,
+    MaxRolls = 5,
+    FoodTablesMaxRolls = 4,
+    MeleeWeaponsAndToolsTablesMaxRolls = 4,
+    GunsAndAmmoTablesMaxRolls = 4,
+    LitteratureTablesMaxRolls = 4,
+    MediaTablesMaxRolls = 4,
+    MechanicsTablesMaxRolls = 4,
+    OtherTablesMaxRolls = 4,
+    -- Minimum=0.00 Maximum=10.00 Default=1.00
+    FoodLootMultiplier = 1.0,
+    -- Minimum=0.00 Maximum=10.00 Default=1.00
+    WeaponLootMultiplier = 1.0,
+    -- Minimum=0.00 Maximum=10.00 Default=1.00
+    GunLootMultiplier = 1.0,
+    -- Minimum=0.00 Maximum=10.00 Default=1.00
+    AmmoLootMultiplier = 1.0,
+    -- Minimum=0.00 Maximum=10.00 Default=1.00
+    SurvivalGearLootMultiplier = 1.0,
+    -- Minimum=0.00 Maximum=10.00 Default=1.00
+    MechanicsLootMultiplier = 1.0,
+    -- Minimum=0.00 Maximum=10.00 Default=1.00
+    MedicalLootMultiplier = 1.0,
+    -- Minimum=0.00 Maximum=10.00 Default=1.00
+    LiteratureLootMultiplier = 1.0,
+    -- Minimum=0.00 Maximum=10.00 Default=1.00
+    MediaLootMultiplier = 1.0,
+    -- Minimum=0.00 Maximum=10.00 Default=1.00
+    HouseholdSuppliesLootMultiplier = 1.0,
+    -- Minimum=0.00 Maximum=10.00 Default=1.00
+    ClothingLootMultiplier = 1.0,
+    -- Minimum=0.00 Maximum=10.00 Default=1.00
+    ContainerLootMultiplier = 1.0,
+    -- Minimum=0.00 Maximum=10.00 Default=1.00
+    OtherLootMultiplier = 1.0,
+    ExceptionsList = "Base.Sledgehammer;Base.Sledgehammer2",
+    SpecificItemsList = "Base.Cigarettes:1;Base.Sledgehammer:1;Base.Sledgehammer2:1",
+    VehicleConditionExtremelyLow = 1,
+    VehicleBatteryChance = 1,
+    VehicleMayBeIncomplete = true,
+    VehicleIncompleteProb = 2,
+    VehicleMissingPartsQuantity = 2,
+    VehicleSuperLowSpawn = false,
+    VehicleConditionExtremelyLow = 1,
+    VehicleBatteryChance = 1,
+    VehicleMayBeIncomplete = true,
+    VehicleIncompleteProb = 2,
+    VehicleMissingPartsQuantity = 2,
     Map = {
-        AllowMiniMap = false,
+        AllowMiniMap = true,
         AllowWorldMap = true,
         MapAllKnown = false,
     },
@@ -530,7 +612,7 @@ SandboxVars = {
         -- 4 = 0-12 Hours
         -- 5 = 2-3 Days
         -- 6 = 1-2 Weeks
-        Mortality = 5,
+        Mortality = 4,
         -- Controls how quickly corpses rise as zombies. Default=0-1 Minutes
         -- 1 = Instant
         -- 2 = 0-30 Seconds
@@ -542,7 +624,8 @@ SandboxVars = {
         -- 1 = Navigate + Use Doors
         -- 2 = Navigate
         -- 3 = Basic Navigation
-        Cognition = 3,
+        -- TODO : Reconsider changing this
+        Cognition = 2,
         -- Controls which zombies can crawl under vehicles. Default=Often
         -- 1 = Crawlers Only
         -- 2 = Extremely Rare
@@ -568,15 +651,16 @@ SandboxVars = {
         -- 3 = Poor
         Hearing = 2,
         -- Zombies that have not seen/heard player can attack doors and constructions while roaming.
-        ThumpNoChasing = false,
+        ThumpNoChasing = true,
         -- Governs whether or not zombies can destroy player constructions and defences.
         ThumpOnConstruction = true,
         -- Governs whether zombies are more active during the day, or whether they act more nocturnally.  Active zombies will use the speed set in the "Speed" setting. Inactive zombies will be slower, and tend not to give chase. Default=Both
         -- 1 = Both
         -- 2 = Night
+        -- TODO : Reconsider changing this too
         ActiveOnly = 1,
         -- Allows zombies to trigger house alarms when breaking through windows and doors.
-        TriggerHouseAlarm = false,
+        TriggerHouseAlarm = true,
         -- When enabled if multiple zombies are attacking they can drag you down to feed. Dependent on zombie strength.
         ZombiesDragDown = true,
         -- When enabled zombies will have a chance to lunge after climbing over a fence if you're too close.
@@ -592,15 +676,15 @@ SandboxVars = {
         -- Adjusts the desired population at the start of the game. Minimum=0.00 Maximum=4.00 Default=1.00
         PopulationStartMultiplier = 1.0,
         -- Adjusts the desired population on the peak day. Minimum=0.00 Maximum=4.00 Default=1.50
-        PopulationPeakMultiplier = 1.5,
+        PopulationPeakMultiplier = 1.0,
         -- The day when the population reaches it's peak. Minimum=1 Maximum=365 Default=28
         PopulationPeakDay = 28,
         -- The number of hours that must pass before zombies may respawn in a cell. If zero, spawning is disabled. Minimum=0.00 Maximum=8760.00 Default=72.00
-        RespawnHours = 72.0,
+        RespawnHours = 168,
         -- The number of hours that a chunk must be unseen before zombies may respawn in it. Minimum=0.00 Maximum=8760.00 Default=16.00
         RespawnUnseenHours = 16.0,
         -- The fraction of a cell's desired population that may respawn every RespawnHours. Minimum=0.00 Maximum=1.00 Default=0.10
-        RespawnMultiplier = 0.1,
+        RespawnMultiplier = 0.5,
         -- The number of hours that must pass before zombies migrate to empty parts of the same cell. If zero, migration is disabled. Minimum=0.00 Maximum=8760.00 Default=12.00
         RedistributeHours = 12.0,
         -- The distance a zombie will try to walk towards the last sound it heard. Minimum=10 Maximum=1000 Default=100
@@ -613,5 +697,174 @@ SandboxVars = {
         RallyGroupSeparation = 15,
         -- How close members of a group stay to the group's leader. Minimum=1 Maximum=10 Default=3
         RallyGroupRadius = 3,
+    },
+    CropsNeverRot = {
+        -- Minimum=6.00 Maximum=999999.00 Default=48.00
+        DiseaseCheckTime = 999999.00,
+    },
+    eggonsWorthwileCars2 = {
+        -- Minimum=0.00 Maximum=10.00 Default=0.00
+        CapacityChangeRate = 0.0,
+        ApplyCapacityBalance = true,
+        -- Minimum=0.00 Maximum=10.00 Default=1.00
+        CapacityMultiplier = 1.0,
+        ApplyCapacityMultiplierToSeats = false,
+        ApplyCapacityMultiplierToGloveBoxes = false,
+        ApplyLoudnessBalance = true,
+        ApplyPowerBalance = true,
+    },
+    ExpandedHotwire = {
+        AllowHotwire = true,
+        AllowHotwireBurglar = true,
+        -- Minimum=0 Maximum=10 Default=1
+        HotwireElectricity = 1,
+        -- Minimum=0 Maximum=10 Default=2
+        HotwireMechanics = 2,
+        -- Minimum=0 Maximum=2147483647 Default=200
+        HotwireBaseDuration = 200,
+        -- Minimum=-2147483647 Maximum=2147483647 Default=3
+        HotwireElectricityScalar = 3,
+        -- Minimum=-2147483647 Maximum=2147483647 Default=0
+        HotwireMechanicsScalar = 0,
+        AllowUnHotwire = true,
+        -- Minimum=0 Maximum=10 Default=1
+        UnHotwireElectricity = 1,
+        -- Minimum=0 Maximum=10 Default=2
+        UnHotwireMechanics = 2,
+        -- Minimum=0 Maximum=2147483647 Default=200
+        UnHotwireBaseDuration = 200,
+        -- Minimum=-2147483647 Maximum=2147483647 Default=3
+        UnHotwireElectricityScalar = 3,
+        -- Minimum=-2147483647 Maximum=2147483647 Default=0
+        UnHotwireMechanicsScalar = 0,
+        AllowKeyCrafting = true,
+        -- Minimum=0 Maximum=10 Default=2
+        KeyCraftingElectricity = 2,
+        -- Minimum=0 Maximum=10 Default=4
+        KeyCraftingMechanics = 4,
+        -- Minimum=0 Maximum=10 Default=6
+        KeyCraftingMetalWelding = 6,
+        -- Minimum=0 Maximum=2147483647 Default=2000
+        KeyCraftingBaseDuration = 2000,
+        -- Minimum=-2147483647 Maximum=2147483647 Default=1
+        KeyCraftingElectricityScalar = 1,
+        -- Minimum=-2147483647 Maximum=2147483647 Default=2
+        KeyCraftingMechanicsScalar = 2,
+        -- Minimum=-2147483647 Maximum=2147483647 Default=3
+        KeyCraftingMetalWeldingScalar = 3,
+    },
+    FuelAPI = {
+        -- Minimum=100.00 Maximum=5000.00 Default=400.00
+        BarrelMaxCapacity = 400.0,
+        -- Minimum=0.00 Maximum=1.00 Default=0.50
+        BarrelRandomQuantityPercent = 0.5,
+        BarrelCanPickupFull = false,
+    },
+    MoreDecreasingLoot = {
+        Enable = false,
+        -- Minimum=0 Maximum=1000 Default=2
+        StartDay = 2,
+        -- Minimum=0 Maximum=1000 Default=30
+        PeakDay = 30,
+        -- Minimum=0 Maximum=100 Default=0
+        OriginalChance = 0,
+        -- Minimum=0 Maximum=100 Default=75
+        MaxChance = 75,
+        -- Minimum=-100 Maximum=100 Default=20
+        FoodChanceModifier = 20,
+        EnhancedVariance = true,
+        TriggerOnVehicleParts = true,
+        TriggerOnDeadBodies = false,
+        TriggerOnProximity = false,
+    },
+    SapphCooking = {
+        NonPerishableChance = 3,
+        PerishableChance = 3,
+        MagazineChance = 3,
+        MREChance = 3,
+        KitchenUtensilsChance = 3,
+        AlcoholChance = 3,
+        ZombieLootSpawn = 3,
+    },
+    ValhallaAegis = {
+        SanitizeFilenamesForWindows = false,
+        EnableItemTransferProtection = true,
+        BlockedItemsForTransfer = "Base.ATMReceiver",
+        EnableEventCoordinationTools = false,
+        EnableTrapSetLogging = false,
+        EnableTrapSetKicking = false,
+        BlockAllPickups = false,
+        BlockAllDisassembly = false,
+        EnableMovPickupLogging = true,
+        EnableContainerProtection = true,
+        AllowContainerPickup = true,
+        EnableSHClaimThrottling = true,
+        -- Minimum=1 Maximum=3600 Default=180
+        SHDestructionTimerMin = 180,
+        EnableSHOwnerCheck = false,
+        EnableVehicleOwnership = true,
+        EnablePARPNames = false,
+        -- Minimum=1 Maximum=255 Default=5
+        VehicleOwnershipClaimNo = 5,
+        AllowVehicleManageFromCell = false,
+        AllowPastOwnerReclaim = false,
+        AllowPlayerVehicleRelease = false,
+        -- Minimum=1 Maximum=365 Default=6
+        AllowVehicleReleaseAfterDays = 6,
+        AllowVehicleWindowSmashing = false,
+        AllowVehicleTowing = true,
+        AllowDoorAndTrunkAccess = true,
+        AllowStealingFromVehicleContainers = true,
+        AllowSiphonGas = true,
+        EnableVehicleDataLogging = false,
+    },
+    WeaponModifiers = {
+        -- Minimum=0 Maximum=1000 Default=1
+        StartDay = 1,
+        -- Minimum=1 Maximum=1000 Default=60
+        PeakDay = 60,
+        -- Minimum=0.00 Maximum=100.00 Default=30.00
+        OriginalModifierChance = 30.0,
+        -- Minimum=0.00 Maximum=100.00 Default=70.00
+        MaxModifierChance = 70.0,
+        -- Minimum=0.00 Maximum=10.00 Default=1.10
+        StartRarityTweaker = 1.1,
+        -- Minimum=0.00 Maximum=10.00 Default=0.90
+        PeakRarityTweaker = 0.9,
+        -- Minimum=0.00 Maximum=3.00 Default=0.50
+        AttachedWeaponsChanceMultiplier = 0.5,
+        -- Minimum=0.00 Maximum=3.00 Default=0.50
+        RangedWeaponsChanceMultiplier = 0.5,
+        -- Minimum=0.00 Maximum=3.00 Default=0.00
+        ChanceMultiplierForCraftedRangedWeapons = 0.0,
+        -- Minimum=0.00 Maximum=3.00 Default=0.75
+        ChanceMultiplierForCraftedMeleeWeapons = 0.75,
+        IgnoreIrrelevantWeapons = true,
+        -- Minimum=0.00 Maximum=10.00 Default=1.00
+        TinkeringSkillXpMultiplier = 1.0,
+        RangedWeaponsTinkerable = false,
+        DynamicTinkerer = false,
+        TinkerCost = 2,
+    },
+    BicPen = {
+        EnableEasterEgg = true,
+    },
+    MoreBuilds = {
+        -- Minimum=1 Maximum=10000 Default=1200
+        MaxWaterWallStorageAmount = 1200,
+        BuildingPermission = 1,
+    },
+    TheyKnew = {
+        -- Minimum=1 Maximum=1000000 Default=500
+        SpawnChance = 500,
+        -- Minimum=0 Maximum=100 Default=100
+        LootChance = 100,
+        -- Minimum=0 Maximum=100 Default=0
+        LootChanceZomboxycycline = 100,
+    },
+    VehicleRecycling = {
+        UninstallParts = false,
+        -- Minimum=1 Maximum=100 Default=1
+        ActionTimeMultiplier = 1,
     },
 }
