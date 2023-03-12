@@ -1,2 +1,2 @@
-MyCarpenter:carpenter;SlowHealer;Conspicuous;MSTAllergic;Clumsy;SlowReader;SpeedReading;Durabile;LightEater;Fit;LowThirst;
+MyCarpenter:carpenter;SlowHealer;Conspicuous;MSTAllergic;Clumsy;SlowReader;SpeedReading;CanGrabMore;Durabile;LightEater;Fit;LowThirst;
 Mechanic:mechanics;Underweight;Conspicuous;WeakStomach;Clumsy;SlowReader;SpeedDemon;Dextrous;SpeedReading;Fit;Stout;
